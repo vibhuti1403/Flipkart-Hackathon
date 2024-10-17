@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_item2"
+            android:icon="@drawable/ic_smartphone_black_24dp"
+            android:title="Fashion" />
+        <item
+            android:id="@+id/nav_item3"
+            android:icon="@drawable/ic_wc_black_24dp"
+            android:title="Home and Furniture" />
+        <item
+            android:id="@+id/nav_item4"
+            android:icon="@drawable/ic_local_dining_black_24dp"
+            android:title="Toys and Baby" />
+        <item
+            android:id="@+id/nav_item5"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Beauty" />
+
+    </group>
+
+    <item android:title="@string/my_profile">
+        <menu>
+            <item
+                android:id="@+id/my_orders"
+                android:icon="@drawable/ic_shopping_basket_black_24dp"
+                android:title="@string/my_orders" />
+            <item
+                android:id="@+id/my_cart"
+                android:icon="@drawable/ic_shopping_cart_black_24dp"
+                android:title="@string/my_cart" />
+            <item
+                android:id="@+id/my_wishlist"
+                android:icon="@drawable/ic_favorite_black_24dp"
+                android:title="@string/my_wishlist" />
+
+        </menu>
+    </item>
+
+
+
+</menu>
